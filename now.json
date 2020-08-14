@@ -13,7 +13,7 @@
       "dest": "src/index.js"
     }
   ],
-  "alias": ["travel-log-api"],
+  "alias": ["metadone-italia"],
   "env": {
     "NODE_ENV": "production",
     "PORT": "1337",
