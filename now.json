@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "name": "",
+  "builds": [
+    {
+      "src": "src/index.js",
+      "use": "@now/node-server"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/.*",
+      "dest": "src/index.js"
+    }
+  ],
+  "alias": ["travel-log-api"],
+  "env": {
+    "NODE_ENV": "production",
+    "PORT": "1337",
+    "CORS_ORIGIN": "https://metadone-italia.vercel.app"
+  }
+}
