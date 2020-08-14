@@ -1,12 +1,7 @@
 {
   "version": 2,
   "name": "metadone-italia",
-  "builds": [
-    {
-      "src": "src/index.js",
-      "use": "@now/node-server"
-    }
-  ],
+
   "routes": [
     {
       "src": "/.*",
