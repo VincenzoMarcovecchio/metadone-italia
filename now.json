@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "",
+  "name": "metadone-italia",
   "builds": [
     {
       "src": "src/index.js",
